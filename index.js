@@ -26,15 +26,6 @@ const NIM_MODELS = [
     contextWindow: 131072,
     maxTokens: DEFAULT_MAX_TOKENS,
   },
-  {
-    id: "deepseek-ai/deepseek-v3_2",
-    name: "DeepSeek V3.2",
-    reasoning: false,
-    input: ["text"],
-    cost: DEFAULT_COST,
-    contextWindow: 131072,
-    maxTokens: DEFAULT_MAX_TOKENS,
-  },
   // ── Llama 4 ───────────────────────────────────────────────────────────────
   {
     id: "meta/llama-4-maverick-17b-128e-instruct",
@@ -186,25 +177,7 @@ const NIM_MODELS = [
     contextWindow: 202752,
     maxTokens: DEFAULT_MAX_TOKENS,
   },
-  {
-    id: "z-ai/glm-4.7",
-    name: "GLM-4.7",
-    reasoning: false,
-    input: ["text"],
-    cost: DEFAULT_COST,
-    contextWindow: 202752,
-    maxTokens: DEFAULT_MAX_TOKENS,
-  },
   // ── Misc ──────────────────────────────────────────────────────────────────
-  {
-    id: "nvidia/llama-3_3-nemotron-super-49b-v1_5",
-    name: "Nemotron Super 49B",
-    reasoning: true,
-    input: ["text"],
-    cost: DEFAULT_COST,
-    contextWindow: 131072,
-    maxTokens: DEFAULT_MAX_TOKENS,
-  },
   {
     id: "bytedance/seed-oss-36b-instruct",
     name: "Seed OSS 36B",
