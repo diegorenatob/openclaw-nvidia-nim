@@ -4,11 +4,6 @@
   "providers": [
     "nvidia-nim"
   ],
-  "providerAuthEnvVars": {
-    "nvidia-nim": [
-      "NVIDIA_API_KEY"
-    ]
-  },
   "providerAuthChoices": [
     {
       "provider": "nvidia-nim",
