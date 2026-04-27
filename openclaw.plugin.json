@@ -1,0 +1,32 @@
+{
+  "id": "nvidia-nim",
+  "enabledByDefault": true,
+  "providers": [
+    "nvidia-nim"
+  ],
+  "providerAuthEnvVars": {
+    "nvidia-nim": [
+      "NVIDIA_API_KEY"
+    ]
+  },
+  "providerAuthChoices": [
+    {
+      "provider": "nvidia-nim",
+      "method": "api-key",
+      "choiceId": "nvidia-nim-api-key",
+      "choiceLabel": "NVIDIA API key",
+      "groupId": "nvidia-nim",
+      "groupLabel": "NVIDIA NIM",
+      "groupHint": "API key",
+      "optionKey": "nvidiaApiKey",
+      "cliFlag": "--nvidia-api-key",
+      "cliOption": "--nvidia-api-key <key>",
+      "cliDescription": "NVIDIA API key"
+    }
+  ],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  }
+}
